@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EBusiness</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_api_key">AIzaSyBQ5AYFowQB5nYmlQpzJ1pBV8Ric0GGkAE</string>
+    <string name="aboutText">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis elementum. Sed condimentum sed massa quis ullamcorper. Donec at scelerisque neque. Pellentesque sagittis, massa sodales sodales finibus, felis ligula tempus lorem, eu porttitor ex lacus vel felis. Vivamus egestas scelerisque consectetur. Vestibulum faucibus enim urna, fermentum aliquet quam euismod non. Proin cursus, libero quis semper elementum, diam metus eleifend magna, in placerat sem velit vitae lacus. Vivamus tempor fringilla nisl, id condimentum felis dignissim nec.
+        
+</string>
+</resources>

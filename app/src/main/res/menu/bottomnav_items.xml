@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/home_icon"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/discoverFragment"
+        android:title="Discover"
+        app:showAsAction="always"
+        android:icon="@drawable/discover_icon"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/socketFragment"
+        android:title="Socket List"
+        app:showAsAction="always"
+        android:icon="@drawable/list_icon"
+        android:orderInCategory="2"/>
+
+
+</menu>

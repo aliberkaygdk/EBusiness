@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aliberkaygedikoglu.ebusiness.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+        <action
+            android:id="@+id/goToDialog"
+            app:destination="@id/dialogFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.aliberkaygedikoglu.ebusiness.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" >
+        <action
+            android:id="@+id/action_discoverFragment_to_socketFragment"
+            app:destination="@id/socketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/socketFragment"
+        android:name="com.aliberkaygedikoglu.ebusiness.SocketFragment"
+        android:label="fragment_socket"
+        tools:layout="@layout/fragment_socket" />
+    <dialog
+        android:id="@+id/dialogFragment2"
+        android:name="com.aliberkaygedikoglu.ebusiness.DialogFragment"
+        android:label="DialogFragment" />
+</navigation>
